@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+    background: #fff no-repeat;
+    background-size: cover;
+
+}
+main{
+    margin-top: 2rem;
+}
+
+.barra{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.conteriner{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    margin: 0rem 2rem 0rem 2rem;
+    padding:  0rem 2rem 0rem 2rem;
+    gap: 2rem;
+    
+}   
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../img/poke\ alpha2.png);
+    background-repeat: no-repeat;
+    background-size: 9.5rem;
+    background-position: 185px 29px;
+    background-color: rgba(0, 255, 157, 0.829);
+    border-radius: 0.9rem;
+    height: 10rem;
+    width: 20rem;
+
+}
+
+.nombre_tipo{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: 1rem 0.5rem 0rem 1rem;
+}
+
+.nombre_pokemon{
+    font-size: 1.5rem;
+    font-family:monospace;
+    color: azure;
+}
+
+.tipo_pokemon {
+    display: flex;
+    margin: 0.3rem 0rem 0rem 0.3rem;
+    gap: 0.5rem;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.tipo_pokemon p{
+    background-color: #ffffff57;
+    border-radius: 1rem;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    font-size: 0.9rem;
+    font-family:monospace;
+    color: azure;
+}
+
+.img_pokemon{
+
+    display: block;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+
+@media only screen and (max-width: 600px){
+
+
+}
